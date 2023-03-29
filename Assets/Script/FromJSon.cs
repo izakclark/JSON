@@ -21,7 +21,7 @@ public class FromJSon : MonoBehaviour
 
         var jsonData = JSON.Parse(fromJsonData);
 
-        Debug.Log($"a플레이어 이름 : {jsonData["PlayerName"]}");
+        Debug.Log($"a플레이어 이름 : {jsonData["pName"]}");
     }
 
     // Update is called once per frame
